@@ -1,23 +1,29 @@
 # STG Code Challenge 3
 
-### Author Ray Hunter ray.hunter@stgconsulting.com
+#### Author Ray Hunter ray.hunter@stgconsulting.com
 
-#### Running the application
+### Installing Scala
 
-This requires that you have scala installed and to run it via the command line.
+This requires that you have scala installed and able to run scala via the commandline.
+
+Directions for installing scala can be found at [http://scala-lang.org/download/install.html](http://scala-lang.org/download/install.html).
+
+### Running the application
 
 Here are the steps to run the scala script:
 
-	scala numbers/src/countnumbers.scala < numbers/src/input.txt
+	$ scala countnumbers.scala < input.txt
 
 or if you are on *nix or mac:
 
-	numbers/src/countnumbers.scala < numbers/src/input.txt
+	$ ./countnumbers.scala < input.txt
 
 
-#### Example of output
+### Example of output
 
-	$ numbers/src/countnumbers.scala < numbers/src/input.txt
+	$ scala countnumbers.scala < input.txt	
+	STG Code Challenge 3 : Ray Hunter
+	
 	Input: CBJ1fA1KLUHCDCV7NMTg
 	Output: 1	[9 / 17 = 1]
 	
