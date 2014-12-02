@@ -1,0 +1,13 @@
+﻿<Window x:Class="CodeChallenge3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Code Challenge 3" Height="321" Width="525" Background="Beige">
+    <Grid>
+        <Label Content="Text to Process:" TextBlock.TextAlignment="Center" TextBlock.FontSize="20" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Width="152" Margin="10,10,0,0" />
+        <TextBox Name="txtTextToProcess" Margin="167,10,0,0" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Width="340" ToolTip="Enter text to process." />
+        <Button Name="btnProcess" Content="Process Text" Height="70" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300" Margin="118,73,0,0" Click="btnProcess_Click_1" ToolTip="Process the text in the Text To Process box." />
+        <Label Name="lblShowWork" Height="50" Margin="100,153,100,0" VerticalAlignment="Top" TextBlock.TextAlignment="Center" ToolTip="The calculations done to get the answer." />
+        <Label Content="Final:" TextBlock.TextAlignment="Center" TextBlock.FontSize="20" Height="36" VerticalAlignment="Top" HorizontalAlignment="Left" Width="62" Margin="183,225,0,0" ToolTip="The sum of all the numbers divided by the total number of letters rounded to the nearest whole number." />
+        <Label Name="lblFinal" TextBlock.FontSize="20" Height="55" VerticalAlignment="Top" Margin="250,225,0,0" HorizontalAlignment="Left" Width="91" ToolTip="The sum of all the numbers divided by the total number of letters rounded to the nearest whole number." />
+    </Grid>
+</Window>
